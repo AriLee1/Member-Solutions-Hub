@@ -1,9 +1,7 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { viteSingleFile } from 'vite-plugin-singlefile';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  // Relative asset paths so the built site works from any folder (e.g. GitHub Pages /Member-Solutions-Hub/)
-  base: './',
-})
+  plugins: [react(), viteSingleFile()],
+});
