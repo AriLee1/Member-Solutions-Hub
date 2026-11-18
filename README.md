@@ -1,8 +1,29 @@
 # Member Solutions Hub
 
-Self-service portal prototype for FHLBank Topeka members: dashboard, tool library, liquidity stress test, marginal cost of funds calculator, analysis requests, guides, and a Business Partner usage view.
+A self-service web portal prototype for **FHLBank Topeka member institutions** (banks, credit unions and insurance companies). It brings the analyses that Member Solutions currently prepares by request into one place where members can run them on their own, using their own balance-sheet data.
 
-> Prototype with **sample data**. Nothing is sent to a server.
+> [!IMPORTANT]
+> Status: Early Prototype with **sample data only**. There is nothing connected to any real member data, internal systems, or APIs (in line with security requirements.) All figures are in idea level. 
+
+## Current stage
+layout and structure
+
+Overall page layout, navigation and visual style
+- Two working sample tools: Liquidity Stress Analysis and Marginal Cost of Funds
+- Request flow, guides/FAQ, and a Business Partner usage view
+- **Next:** confirm with stakeholders which components each page needs (what members want to see first, which tools matter most), then refine content and priorities
+- **Later:** convert remaining report-based analyses into tools; connect real data
+
+## UI & design direction
+
+- **Calm, trustworthy, financial.** Built on the FHLBank Topeka palette: navy `#003359` for text and key numbers, teal `#057A94` for actions and positive states, and light blue `#93B1CC` for surfaces and highlights. Accent colors are used only for status (warnings, shortfalls).
+- **Soft card dashboard.** A pale blue canvas with rounded white cards (18px radius) and light shadows. Each card answers one question.
+- **Numbers first.** The key figure on each card is large and bold, with a short label above and context below, so members can read their position at a glance.
+- **Inputs left, results right.** Every tool follows the same pattern: assumptions on the left (sliders, scenario presets), live results, charts and a sources-and-uses table on the right.
+- **Plain language.** Labels describe what a number means ("Remaining borrowing capacity") rather than internal terms.
+- **Accessible and responsive.** Readable typography (Plus Jakarta Sans), keyboard-friendly controls, layouts that adapt down to tablet and phone, and respect for reduced-motion settings.
+for team's future road map
+
 
 ## Tech stack
 
